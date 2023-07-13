@@ -1,0 +1,53 @@
+body {
+    background-color: #ecf0f1;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #e74c3c;
+    margin-bottom: 50px;
+}
+
+.card {
+    margin-bottom: 20px;
+    border: none;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    color: #6c757d;
+}
+
+.card-text {
+    font-size: 24px;
+    color: #6c757d;
+}
+
+.heart-rate .card-title, .heart-rate .card-text {
+    color: #e74c3c;
+}
+
+.blood-pressure .card-title, .blood-pressure .card-text {
+    color: #3498db;
+}
+
+.oxygen-level .card-title, .oxygen-level .card-text {
+    color: #2ecc71;
+}
+
+.body-temperature .card-title, .body-temperature .card-text {
+    color: #f39c12;
+}
+
+.cholesterol-level .card-title, .cholesterol-level .card-text {
+    color: #9b59b6;
+}
+
+.glucose-level .card-title, .glucose-level .card-text {
+    color: #e67e22;
+}
