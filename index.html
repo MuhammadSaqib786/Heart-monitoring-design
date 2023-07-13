@@ -11,10 +11,24 @@
 <body>
     <div class='container'>
         <div class='row'>
-            <div class='col-lg-12'>
-                <h1 class='text-center'><i class='fas fa-heartbeat'></i> Heart Monitoring App <i class='fas fa-heartbeat'></i></h1>
+            <div class='col-lg-6'>
+                <div class='card'>
+                    <div class='card-body'>
+                        <h5 class='card-title'>ECG Graph</h5>
+                        <canvas id='ecg-graph'></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class='col-lg-6'>
+                <div class='card'>
+                    <div class='card-body'>
+                        <h5 class='card-title'>Oxygen Saturation Graph</h5>
+                        <canvas id='oxygen-graph'></canvas>
+                    </div>
+                </div>
             </div>
         </div>
+
         <div class='row'>
             <div class='col-lg-4'>
                 <div class='card heart-rate'>
@@ -67,7 +81,9 @@
                 </div>
             </div>
         </div>
+        
     </div>
+    <script src='https://cdn.jsdelivr.net/npm/chart.js'></script>
     <script src='app.js'></script>
 </body>
 </html>
